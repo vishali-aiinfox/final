@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Secret key for JWT encoding/decoding
-app.config['SECRET_KEY'] = 'your_secret_key_here'
+app.config['SECRET_KEY'] = 'key'
 
 # Dummy user (for demonstration)
 users = {
